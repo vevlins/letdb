@@ -1,68 +1,2662 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!-- saved from url=(0019)https://sheetdb.io/ -->
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Web site created using CloudBase Webify">
-    <title>Hello Webify！</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-                sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        code {
-            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-                monospace;
-        }
-        .App {
-            text-align: center;
-        }
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="text/javascript" async=""
+    src="./static/gwiet1hc"></script>
+  <script async="" src="./static/83666527.js"></script>
+  <script src="./static/core-en.js"
+    charset="UTF-8"></script>
+  <script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+      "ccpaAcknowledgeOnDisplay": true,
+      "consentOnContinuedBrowsing": false,
+      "cookiePolicyInOtherWindow": true,
+      "countryDetection": true,
+      "enableCcpa": true,
+      "enableLgpd": true,
+      "invalidateConsentWithoutLog": true,
+      "lang": "en",
+      "lgpdAppliesGlobally": false,
+      "perPurposeConsent": true,
+      "siteId": 2863791,
+      "whitelabel": false,
+      "cookiePolicyId": 83666527,
+      "cookiePolicyUrl": "https://sheetdb.io/cookies-policy",
+      "privacyPolicyUrl": "https://sheetdb.io/privacy-policy",
+      "banner": {
+        "acceptButtonCaptionColor": "#FFFFFF",
+        "acceptButtonColor": "#16A34A",
+        "acceptButtonDisplay": true,
+        "backgroundColor": "#FFFFFF",
+        "backgroundOverlay": true,
+        "brandBackgroundColor": "#FFFFFF",
+        "brandTextColor": "#2D2D2D",
+        "closeButtonDisplay": false,
+        "customizeButtonCaptionColor": "#4D4D4D",
+        "customizeButtonColor": "#DADADA00",
+        "customizeButtonDisplay": true,
+        "explicitWithdrawal": true,
+        "listPurposes": true,
+        "logo": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIyLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IldhcnN0d2FfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDEwMCAxMDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMCAxMDA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojMEJBQjY1O30KCS5zdDF7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI1MCIgY3k9IjUwIiByPSI0NiIvPgo8L2c+CjxnPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTYyLjIsMjguNGMwLjIsMCwwLjUsMC4xLDAuNywwLjJjNC41LDAuNiw4LjMsNC4yLDkuMiw4LjdjMC4xLDAuOCwwLjIsMS41LDAuMiwyLjNjMCwwLjktMC4xLDEuNywwLjEsMi42CgkJYzAuNSwyLjYsMi42LDQuNyw1LjIsNS4xYzAsMCwwLjEsMCwwLjEsMGMwLjQsMC4xLDAuNCwwLjEsMC40LDAuNGMwLDEuMywwLDIuNiwwLDMuOWMwLDAuMywwLDAuMy0wLjMsMC40CgkJYy0yLjYsMC40LTQuNiwyLjMtNS4zLDQuOGMtMC4xLDAuNS0wLjEsMS4xLTAuMiwxLjZjMCwwLjgsMCwxLjUsMCwyLjNjLTAuMiwyLjItMSw0LjItMi40LDZjLTEuOCwyLjItNC4xLDMuNS02LjksNAoJCWMtMC42LDAuMS0xLjEsMC4xLTEuNywwLjFjLTIuMywwLTQuNSwwLTYuOCwwYzAsMC0wLjEsMC0wLjEsMGMtMC4zLDAtMC4zLDAtMC4zLTAuM2MwLTEuMywwLTIuNywwLTRjMC0wLjMsMC0wLjMsMC40LTAuMwoJCWMyLjMsMCw0LjYsMCw2LjksMGMxLjQsMCwyLjctMC40LDMuOS0xLjNjMS41LTEuMSwyLjMtMi42LDIuNS00LjVjMC4xLTAuNywwLTEuNCwwLTIuMWMwLTMuNSwxLjQtNi4zLDQtOC41YzAsMCwwLjEtMC4xLDAuMS0wLjEKCQljMC0wLjItMC4yLTAuMi0wLjMtMC4zYy0yLjEtMS43LTMuMy00LTMuOC02LjZjLTAuMS0wLjYtMC4xLTEuMS0wLjEtMS43YzAtMC43LDAtMS40LDAtMi4xYy0wLjItMi4yLTEuMi0zLjgtMy01CgkJYy0xLTAuNi0yLjEtMC45LTMuMi0wLjljLTIuMywwLTQuNSwwLTYuOCwwYy0wLjEsMC0wLjIsMC0wLjMsMEM1NCwzMy4xLDU0LDMzLDU0LDMyLjhjMC0wLjUsMC0xLDAtMS41YzAtMSwwLTIsMC0yLjkKCQlDNTYuNywyOC40LDU5LjQsMjguNCw2Mi4yLDI4LjR6Ii8+CjwvZz4KPGc+Cgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNDQuNSwyOC40YzAsMSwwLDIuMSwwLDMuMWMwLDAuNCwwLDAuOSwwLDEuM2MwLDAuMi0wLjEsMC4zLTAuMywwLjNjLTAuMiwwLTAuNCwwLTAuNiwwYy0yLjEsMC00LjIsMC02LjQsMAoJCWMtMi44LDAtNS40LDEuOS02LjIsNC43Yy0wLjEsMC41LTAuMiwxLjEtMC4yLDEuNmMwLDAuNiwwLDEuMywwLDEuOWMtMC4xLDIuNi0xLDQuOS0yLjYsNi44Yy0wLjUsMC41LTEsMS0xLjUsMS41CgkJYzAsMC4xLDAuMSwwLjIsMC4yLDAuM2MyLDEuNywzLjMsMy45LDMuOCw2LjVjMC4xLDAuNiwwLjIsMS4zLDAuMiwyYzAsMC44LDAsMS42LDAuMSwyLjNjMC4zLDIuNiwyLjMsNC43LDQuOCw1LjQKCQljMC41LDAuMSwxLDAuMiwxLjYsMC4yYzIuMiwwLDQuNCwwLDYuNiwwYzAuMSwwLDAuMiwwLDAuMywwYzAuMiwwLDAuMiwwLjEsMC4yLDAuMmMwLDAuMSwwLDAuMSwwLDAuMmMwLDEuMywwLDIuNiwwLDMuOAoJCWMwLDAuNCwwLDAuNC0wLjQsMC40Yy0yLjQsMC00LjcsMC03LjEsMGMtNS4xLTAuMS05LjMtMy41LTEwLjUtOC40Yy0wLjItMC43LTAuMy0xLjUtMC4zLTIuMmMwLTAuNywwLTEuMywwLTIKCQljMC0yLjktMi4yLTUuNS01LjEtNi4xYy0wLjctMC4xLTAuNy0wLjEtMC43LTAuOGMwLTEuMSwwLTIuMywwLTMuNGMwLTAuNiwwLTAuNiwwLjUtMC43YzEuOC0wLjMsMy4yLTEuMyw0LjItMi44CgkJYzAuNy0xLDEtMi4yLDEtMy40YzAtMC42LDAtMS4yLDAtMS44YzAuMS01LjMsNC05LjYsOC44LTEwLjVjMC40LTAuMSwwLjgtMC4xLDEuMS0wLjJjMC4xLDAsMC4zLTAuMSwwLjUtMC4xCgkJQzM5LjQsMjguNCw0MS44LDI4LjQsNDQuNSwyOC40eiIvPgo8L2c+CjxnPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTQ5LjIsMzguMWM0LjEsMCw4LjMsMCwxMi40LDBjMC4xLDAsMC4yLDAsMC4zLDBjMC4yLDAsMC4yLDAuMSwwLjIsMC4yYzAsMC40LDAsMC43LDAsMS4xYzAsMSwwLDIsMCwyLjkKCQljMCwwLjQsMCwwLjQtMC40LDAuNGMtMS40LDAtMi44LDAtNC4yLDBjLTYuOSwwLTEzLjgsMC0yMC44LDBjLTAuMSwwLTAuMSwwLTAuMiwwYy0wLjYsMC0wLjUsMC0wLjUtMC41YzAtMS4yLDAtMi41LDAtMy43CgkJYzAtMC40LDAtMC40LDAuNC0wLjRDNDAuOCwzOC4xLDQ1LDM4LjEsNDkuMiwzOC4xeiIvPgo8L2c+CjxnPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTQ5LjIsNjEuMmMtNC4xLDAtOC4zLDAtMTIuNCwwYy0wLjcsMC0wLjYsMC4xLTAuNi0wLjZjMC0xLjIsMC0yLjUsMC0zLjdjMC0wLjMsMC0wLjMsMC4zLTAuMwoJCWMwLjEsMCwwLjEsMCwwLjIsMGM4LjMsMCwxNi42LDAsMjQuOSwwYzAuNiwwLDAuNS0wLjEsMC41LDAuNmMwLDEuMiwwLDIuNCwwLDMuNmMwLDAuNSwwLDAuNC0wLjQsMC40CgkJQzU3LjYsNjEuMiw1My40LDYxLjIsNDkuMiw2MS4yeiIvPgo8L2c+CjxnPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTQyLjEsNTJjLTEuOCwwLTMuNSwwLTUuMywwYy0wLjEsMC0wLjIsMC0wLjMsMGMtMC4zLDAtMC4zLDAtMC4zLTAuM2MwLTAuNiwwLTEuMSwwLTEuN2MwLTAuOCwwLTEuNSwwLTIuMwoJCWMwLTAuNCwwLTAuNCwwLjMtMC40YzEuMSwwLDIuMiwwLDMuMywwYzIuNSwwLDUsMCw3LjYsMGMwLjEsMCwwLjIsMCwwLjMsMGMwLjMsMCwwLjMsMCwwLjMsMC4zYzAsMC41LDAsMSwwLDEuNWMwLDAuOCwwLDEuNiwwLDIuNAoJCWMwLDAuNCwwLDAuNC0wLjQsMC40QzQ1LjcsNTIsNDMuOSw1Miw0Mi4xLDUyeiIvPgo8L2c+CjxnPgoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTU1LjcsNDcuNGMwLjgsMCwxLjYsMCwyLjQsMGMwLjMsMCwwLjMsMCwwLjMsMC4zYzAsMS4zLDAsMi42LDAsNGMwLDAuMywwLDAuMy0wLjMsMC4zYy0xLjYsMC0zLjIsMC00LjgsMAoJCUM1Myw1Miw1Myw1Miw1Myw1MS43YzAtMS4zLDAtMi43LDAtNGMwLTAuMywwLTAuMywwLjQtMC4zQzU0LjEsNDcuNCw1NC45LDQ3LjQsNTUuNyw0Ny40eiIvPgo8L2c+Cjwvc3ZnPgo=",
+        "position": "float-center",
+        "rejectButtonCaptionColor": "#4D4D4D",
+        "rejectButtonColor": "#DADADA",
+        "rejectButtonDisplay": true,
+        "textColor": "#000000"
+      }
+    };
+  </script>
+  <script type="text/javascript"
+    src="./static/stub.js"></script>
+  <script type="text/javascript"
+    src="./static/iubenda_cs.js" charset="UTF-8"
+    async=""></script> <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="text/javascript" src="./static/js"
+    class="_iub_cs_activate _iub_cs_activate-activated" async="false"></script>
+  <script type="text/javascript" class="_iub_cs_activate _iub_cs_activate-activated" async="false">
+    window.dataLayer = window.dataLayer || [];
 
-        .App-logo {
-            height: 40vmin;
-            pointer-events: none;
-        }
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        @media (prefers-reduced-motion: no-preference) {
-            .App-logo {
-                animation: App-logo-spin infinite 20s linear;
-            }
-        }
+    gtag('config', 'G-3F0W6ZLH1L', {
+    });
+  </script>
 
-        .App-header {
-            background-color: #efefef;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: calc(10px + 2vmin);
-            color: black;
-        }
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Sheets REST API, connect Google Spreadsheet with your site</title>
+  <meta name="description"
+    content="Use your Google Sheets as a JSON API. Connect Google Spreadsheets to your CRM or any other tool using JSON API and RESTful requests.">
+  <meta name="author" content="SheetDB">
 
-        .App-link {
-            color: #108ee9;
-        }
-    </style>
+  <meta name="google-site-verification" content="iylXZos0LynGPRCRTi1k8TXdqnTkCuSsxX07nH3L9Bw">
+
+  <meta property="og:image" content="https://sheetdb.io/gfx/og-image2.jpg">
+  <meta property="og:url" content="https://sheetdb.io">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Google Sheets REST API, connect Google Spreadsheet with your site">
+  <meta property="og:description"
+    content="Use your Google Sheets as a JSON API. Connect Google Spreadsheets to your CRM or any other tool using JSON API and RESTful requests.">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://sheetdb.io/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://sheetdb.io/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://sheetdb.io/icons/favicon-16x16.png">
+  <link rel="manifest" href="https://sheetdb.io/icons/site.webmanifest">
+  <link rel="mask-icon" href="https://sheetdb.io/icons/safari-pinned-tab.svg" color="#10b981">
+  <link rel="shortcut icon" href="https://sheetdb.io/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#10b981">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preload" as="style"
+    href="./static/page.41a22748.css">
+  <link rel="stylesheet"
+    href="./static/page.41a22748.css">
+  <input type="hidden" id="_w_simile" data-inspect-config="3">
+  <script type="text/javascript"
+    src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script>
+  <style type="text/css">
+    .iubenda-alert {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      z-index: 2147483647 !important;
+      background-color: rgba(0, 0, 0, .5) !important;
+      font-family: "Helvetica Neue", -apple-system, sans-serif !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 16px !important
+    }
+
+    .iubenda-alert * {
+      font-size: 100% !important;
+      width: auto !important;
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: 0 0 !important;
+      box-sizing: border-box !important;
+      -webkit-tap-highlight-color: transparent !important;
+      -webkit-backface-visibility: hidden !important;
+      backface-visibility: hidden !important;
+      font-family: -apple-system, sans-serif !important;
+      text-decoration: none !important;
+      color: currentColor !important;
+      background-attachment: scroll !important;
+      background-color: transparent !important;
+      background-image: none !important;
+      background-position: 0 0 !important;
+      background-repeat: repeat !important;
+      border: 0 !important;
+      border-color: #000 !important;
+      border-color: currentColor !important;
+      border-radius: 0 !important;
+      border-style: none !important;
+      border-width: medium !important;
+      bottom: auto !important;
+      clear: none !important;
+      clip: auto !important;
+      counter-increment: none !important;
+      counter-reset: none !important;
+      direction: inherit !important;
+      float: none !important;
+      font-style: inherit !important;
+      font-variant: normal !important;
+      font-weight: inherit !important;
+      height: auto !important;
+      left: auto !important;
+      letter-spacing: normal !important;
+      line-height: inherit !important;
+      list-style-type: inherit !important;
+      list-style-position: outside !important;
+      list-style-image: none !important;
+      margin: 0 !important;
+      max-height: none !important;
+      max-width: none !important;
+      min-height: 0 !important;
+      min-width: 0 !important;
+      opacity: 1;
+      overflow: visible !important;
+      padding: 0 !important;
+      position: static !important;
+      quotes: "" "" !important;
+      right: auto !important;
+      table-layout: auto !important;
+      text-align: left !important;
+      text-indent: 0 !important;
+      text-transform: none !important;
+      top: auto !important;
+      unicode-bidi: normal !important;
+      vertical-align: baseline !important;
+      visibility: inherit !important;
+      white-space: normal !important;
+      width: auto !important;
+      word-spacing: normal !important;
+      z-index: auto !important;
+      background-origin: padding-box !important;
+      background-origin: padding-box !important;
+      background-clip: border-box !important;
+      background-size: auto !important;
+      -o-border-image: none !important;
+      border-image: none !important;
+      border-radius: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      -moz-column-count: auto !important;
+      column-count: auto !important;
+      -moz-column-gap: normal !important;
+      column-gap: normal !important;
+      -moz-column-rule: medium none #000 !important;
+      column-rule: medium none #000 !important;
+      -moz-column-span: none !important;
+      column-span: none !important;
+      -moz-column-width: auto !important;
+      column-width: auto !important;
+      font-feature-settings: normal !important;
+      overflow-x: visible !important;
+      overflow-y: visible !important;
+      -webkit-hyphens: manual !important;
+      hyphens: manual !important;
+      perspective: none !important;
+      perspective-origin: 50% 50% !important;
+      text-shadow: none !important;
+      transition: all 0s ease 0s !important;
+      transform: none !important;
+      transform-origin: 50% 50% !important;
+      transform-style: flat !important;
+      word-break: normal !important
+    }
+
+    .iubenda-alert .iubenda-alert-dialog {
+      margin: 16px !important;
+      width: 100% !important;
+      border-radius: 6px !important;
+      background-color: #111 !important;
+      color: #f4f4f4 !important
+    }
+
+    @media (min-width:320px) {
+      .iubenda-alert .iubenda-alert-dialog {
+        width: 320px !important
+      }
+    }
+
+    .iubenda-alert .iubenda-alert-dialog .iubenda-alert-dialog-content {
+      padding: 24px 24px 0 !important
+    }
+
+    .iubenda-alert .iubenda-alert-dialog .iubenda-alert-dialog-buttons {
+      padding: 24px !important;
+      display: flex !important
+    }
+
+    .iubenda-alert .iubenda-alert-dialog .iubenda-alert-dialog-buttons button {
+      flex: 1 !important
+    }
+
+    .iubenda-alert button {
+      flex: 1 !important;
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      margin: 4px !important;
+      padding: 8px 16px !important;
+      border-radius: 64px !important;
+      cursor: pointer !important;
+      font-weight: 700 !important;
+      font-size: 100% !important;
+      border: 1px solid transparent !important;
+      color: #fff;
+      text-align: center !important
+    }
+
+    .iubenda-alert button:hover {
+      border-color: currentColor !important
+    }
+
+    .iubenda-alert button.iubenda-button-confirm {
+      background-color: #0073ce !important
+    }
+
+    .iubenda-alert button.iubenda-button-cancel {
+      background-color: rgba(255, 255, 255, .1) !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox,
+    #iubenda-iframe .iub-toggle-checkbox {
+      flex-shrink: 0 !important;
+      display: flex !important;
+      align-items: center !important;
+      margin-left: 24px !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input,
+    #iubenda-iframe .iub-toggle-checkbox input {
+      -moz-appearance: none !important;
+      appearance: none !important;
+      -webkit-appearance: none !important;
+      padding: 0 !important;
+      border: 0 !important;
+      margin: 0 !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input::-ms-check,
+    #iubenda-iframe .iub-toggle-checkbox input::-ms-check {
+      visibility: hidden
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1,
+    #iubenda-iframe .iub-toggle-checkbox input.style1 {
+      width: 64px !important;
+      height: 32px !important;
+      border-radius: 32px !important;
+      transition: background-position .4s ease, background-color .4s ease !important;
+      background-color: #ccc !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath fill='%23FFF' fill-rule='evenodd' d='M9 0a9 9 0 1 1 0 18A9 9 0 0 1 9 0zM5.729 5.033a.5.5 0 0 0-.638.058l-.058.07a.5.5 0 0 0 .058.637l3.201 3.201-3.201 3.203a.5.5 0 0 0 .707.707l3.201-3.203 3.203 3.203.07.058a.5.5 0 0 0 .637-.058l.058-.07a.5.5 0 0 0-.058-.637L9.706 8.999l3.203-3.201a.5.5 0 0 0-.707-.707L8.999 8.292 5.798 5.091z'/%3E%3C/svg%3E") !important;
+      background-repeat: no-repeat !important;
+      background-position: top 4px left 4px !important;
+      background-size: 24px 24px !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked,
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked {
+      background-color: #1cc691 !important;
+      background-position: top 4px left 36px !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath fill='%23FFF' fill-rule='evenodd' d='M9 0a9 9 0 1 1 0 18A9 9 0 0 1 9 0zm4.646 5.646l-6.198 6.2-3.1-3a.5.5 0 1 0-.696.718l3.454 3.342a.5.5 0 0 0 .701-.006l6.547-6.546a.5.5 0 1 0-.708-.708z'/%3E%3C/svg%3E") !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked.sm,
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked.sm {
+      background-position: top 3px left 27px !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked.half,
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked[value=partial],
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked.half,
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked[value=partial] {
+      background-color: #ffd24d !important;
+      background-position: top 4px left 20px !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cpath fill='%23FFF' fill-rule='evenodd' d='M9 0a9 9 0 1 1 0 18A9 9 0 0 1 9 0zm4 8.5H5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1z'/%3E%3C/svg%3E") !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked.half.sm,
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1:checked[value=partial].sm,
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked.half.sm,
+    #iubenda-iframe .iub-toggle-checkbox input.style1:checked[value=partial].sm {
+      background-position: top 3px left 15px !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input.style1.sm,
+    #iubenda-iframe .iub-toggle-checkbox input.style1.sm {
+      width: 48px !important;
+      height: 24px !important;
+      border-radius: 24px !important;
+      background-size: 18px 18px !important;
+      background-position: top 3px left 3px !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input::-ms-check,
+    #iubenda-iframe .iub-toggle-checkbox input::-ms-check {
+      visibility: hidden !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input:not([disabled]),
+    #iubenda-iframe .iub-toggle-checkbox input:not([disabled]) {
+      cursor: pointer !important
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox input[disabled],
+    #iubenda-iframe .iub-toggle-checkbox input[disabled] {
+      opacity: .35
+    }
+
+    #iubenda-cs-banner .iub-toggle-checkbox .iub-caption,
+    #iubenda-iframe .iub-toggle-checkbox .iub-caption {
+      display: none !important
+    }
+
+    #iubenda-iframe .iub-consent-buttons {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 0 !important;
+      background-color: #fff !important;
+      z-index: 3 !important;
+      border-bottom: 1px solid rgba(0, 0, 0, .075) !important;
+      padding: 24px 16px !important;
+      display: flex !important;
+      justify-content: flex-end !important;
+      align-items: center !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iub-consent-buttons {
+        padding: 16px 12px !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iub-consent-buttons {
+        justify-content: center !important
+      }
+
+      #iubenda-iframe .iub-consent-buttons>div {
+        display: flex !important;
+        flex: 1 !important
+      }
+
+      #iubenda-iframe .iub-consent-buttons>div button {
+        flex: 1 !important
+      }
+    }
+
+    #iubenda-iframe .iub-btn {
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      display: inline-flex;
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 8px 16px !important;
+      color: #404040 !important;
+      background-color: rgba(0, 0, 0, .07) !important;
+      border-radius: 6px !important;
+      text-decoration: none !important;
+      background-size: 21px !important;
+      background-position: center left 10px !important;
+      background-repeat: no-repeat !important;
+      cursor: pointer !important;
+      border: 1px solid transparent !important
+    }
+
+    #iubenda-iframe .iub-btn:hover {
+      background-color: transparent !important;
+      border-color: currentColor !important
+    }
+
+    #iubenda-iframe .iub-btn svg {
+      margin-right: 4px !important;
+      width: 20px !important;
+      height: 20px !important
+    }
+
+    #iubenda-iframe .iub-btn.iub-btn-cp {
+      max-width: 100% !important
+    }
+
+    #iubenda-iframe .iub-btn.iub-btn-cp span {
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important
+    }
+
+    #iubenda-iframe .iub-btn.iub-btn-back {
+      padding: 8px !important
+    }
+
+    #iubenda-iframe .iub-btn.iub-btn-back svg {
+      margin: 0 !important
+    }
+
+    #iubenda-iframe .iub-btn-config {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23535353' d='M9.803 2.5v.77h0c.499.199.958.478 1.363.822l.642-.364a.5.5 0 0 1 .686.197l1.273 2.35a.5.5 0 0 1-.193.673l-.659.373h0a5.244 5.244 0 0 1 0 1.358l.659.373a.5.5 0 0 1 .193.673l-1.273 2.35a.5.5 0 0 1-.686.197l-.642-.364h0a4.932 4.932 0 0 1-1.362.823v.769a.5.5 0 0 1-.5.5H6.696a.5.5 0 0 1-.5-.5l-.001-.77h0a4.932 4.932 0 0 1-1.362-.822l-.642.364a.5.5 0 0 1-.686-.197l-1.273-2.35a.5.5 0 0 1 .193-.673l.659-.373h0a5.244 5.244 0 0 1 0-1.359l-.658-.372a.5.5 0 0 1-.193-.674l1.272-2.349a.5.5 0 0 1 .686-.197l.642.364h0a4.932 4.932 0 0 1 1.362-.823V2.5a.5.5 0 0 1 .5-.5h2.607a.5.5 0 0 1 .5.5zM8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/svg%3E") !important;
+      padding-left: 40px !important
+    }
+
+    #iubenda-iframe .iub-btn-primary {
+      background-color: #0073ce !important;
+      color: #fff !important
+    }
+
+    #iubenda-iframe .iub-btn-stroked {
+      background-color: transparent !important;
+      border: 1px solid rgba(0, 0, 0, .25) !important
+    }
+
+    #iubenda-iframe .iub-btn-stroked:hover {
+      background-color: transparent !important;
+      border-color: rgba(0, 0, 0, .65) !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iub-btn.iub-desktop {
+        display: none !important
+      }
+    }
+
+    @media (min-width:800px) {
+      #iubenda-iframe .iub-btn.iub-mobile {
+        display: none !important
+      }
+    }
+
+    #iubenda-iframe .iub-btn-consent {
+      margin: 0 4px !important;
+      border-radius: 32px !important;
+      box-shadow: 0 4px 8px -6px rgba(0, 0, 0, .2) !important;
+      padding: 8px 20px !important;
+      background-color: #ededed !important;
+      text-align: center !important;
+      color: #3c3c3c !important;
+      background-repeat: no-repeat !important;
+      background-position: center left 16px !important;
+      padding-left: 38px !important;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+      position: relative !important
+    }
+
+    #iubenda-iframe .iub-btn-consent:active {
+      box-shadow: 0 2px 4px -6px rgba(0, 0, 0, .5) !important;
+      top: 1px !important
+    }
+
+    #iubenda-iframe .iub-btn-consent.iub-btn-accept {
+      color: #06281f !important;
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 515.556 515.556' height='512px' viewBox='0 0 515.556 515.556' width='512px' class=''%3E%3Cg%3E%3Cpath d='m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%2306281F'/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+      background-size: 16px !important
+    }
+
+    #iubenda-iframe .iub-btn-consent.iub-btn-reject {
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 386.667 386.667' height='512px' viewBox='0 0 386.667 386.667' width='512px' class=''%3E%3Cg%3E%3Cpath d='m386.667 45.564-45.564-45.564-147.77 147.769-147.769-147.769-45.564 45.564 147.769 147.769-147.769 147.77 45.564 45.564 147.769-147.769 147.769 147.769 45.564-45.564-147.768-147.77z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%233c3c3c'/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+      background-size: 14px !important
+    }
+
+    #iubenda-iframe .iub-btn-consent:focus {
+      background-color: #fff !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iub-btn-consent {
+        padding: 8px 10px !important;
+        padding-left: 32px !important;
+        background-position: center left 12px !important;
+        margin: 0 4px !important
+      }
+    }
+
+    #iubenda-iframe {
+      background-color: rgba(0, 0, 0, .8) !important;
+      transition: opacity .4s ease, visibility .4s ease !important;
+      font-size: 16px !important;
+      position: fixed !important;
+      z-index: 100000000 !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      border: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      line-height: 1.5 !important;
+      align-items: unset !important;
+      align-content: unset !important;
+      flex-wrap: unset !important;
+      align-items: center !important;
+      justify-content: center !important;
+      display: none !important
+    }
+
+    #iubenda-iframe * {
+      align-items: unset !important;
+      align-content: unset !important;
+      flex-wrap: unset !important;
+      font-size: 100% !important;
+      width: auto !important;
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      background: 0 0 !important;
+      box-sizing: border-box !important;
+      -webkit-tap-highlight-color: transparent !important;
+      -webkit-backface-visibility: hidden !important;
+      backface-visibility: hidden !important;
+      font-family: -apple-system, sans-serif !important;
+      text-decoration: none !important;
+      color: currentColor !important;
+      background-attachment: scroll !important;
+      background-color: transparent !important;
+      background-image: none !important;
+      background-position: 0 0 !important;
+      background-repeat: repeat !important;
+      border: 0 !important;
+      border-color: #000 !important;
+      border-color: currentColor !important;
+      border-radius: 0 !important;
+      border-style: none !important;
+      border-width: medium !important;
+      bottom: auto !important;
+      clear: none !important;
+      clip: auto !important;
+      counter-increment: none !important;
+      counter-reset: none !important;
+      direction: inherit !important;
+      float: none !important;
+      font-style: inherit !important;
+      font-variant: normal !important;
+      font-weight: inherit !important;
+      height: auto !important;
+      left: auto !important;
+      letter-spacing: normal !important;
+      line-height: inherit !important;
+      list-style-type: inherit !important;
+      list-style-position: outside !important;
+      list-style-image: none !important;
+      margin: 0 !important;
+      max-height: none !important;
+      max-width: none !important;
+      min-height: 0 !important;
+      min-width: 0 !important;
+      opacity: 1;
+      overflow: visible !important;
+      padding: 0 !important;
+      position: static !important;
+      quotes: "" "" !important;
+      right: auto !important;
+      table-layout: auto !important;
+      text-align: left !important;
+      text-indent: 0 !important;
+      text-transform: none !important;
+      top: auto !important;
+      unicode-bidi: normal !important;
+      vertical-align: baseline !important;
+      visibility: inherit !important;
+      white-space: normal !important;
+      width: auto !important;
+      word-spacing: normal !important;
+      z-index: auto !important;
+      background-origin: padding-box !important;
+      background-origin: padding-box !important;
+      background-clip: border-box !important;
+      background-size: auto !important;
+      -o-border-image: none !important;
+      border-image: none !important;
+      border-radius: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+      -moz-column-count: auto !important;
+      column-count: auto !important;
+      -moz-column-gap: normal !important;
+      column-gap: normal !important;
+      -moz-column-rule: medium none #000 !important;
+      column-rule: medium none #000 !important;
+      -moz-column-span: none !important;
+      column-span: none !important;
+      -moz-column-width: auto !important;
+      column-width: auto !important;
+      font-feature-settings: normal !important;
+      overflow-x: visible !important;
+      overflow-y: visible !important;
+      -webkit-hyphens: manual !important;
+      hyphens: manual !important;
+      perspective: none !important;
+      perspective-origin: 50% 50% !important;
+      text-shadow: none !important;
+      transition: all 0s ease 0s !important;
+      transform: none !important;
+      transform-origin: 50% 50% !important;
+      transform-style: flat !important;
+      word-break: normal !important;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%
+    }
+
+    #iubenda-iframe.iubenda-iframe-visible {
+      display: flex !important
+    }
+
+    #iubenda-iframe input[type=checkbox]:before {
+      display: none !important
+    }
+
+    #iubenda-iframe .iub-popover-trigger {
+      display: inline-block !important;
+      text-decoration: underline !important;
+      -webkit-text-decoration-style: dashed !important;
+      text-decoration-style: dashed !important;
+      position: relative !important;
+      margin-right: 16px !important;
+      cursor: pointer !important;
+      line-height: 1.25 !important;
+      font-weight: inherit !important;
+      color: inherit !important
+    }
+
+    #iubenda-iframe .iub-popover-trigger:after,
+    #iubenda-iframe .iub-popover-trigger:before {
+      content: "";
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 12px;
+      vertical-align: middle;
+      background-size: 4px;
+      position: absolute;
+      left: calc(100% + 2px);
+      top: 3px
+    }
+
+    #iubenda-iframe .iub-popover-trigger:before {
+      background-color: currentColor;
+      opacity: .35
+    }
+
+    #iubenda-iframe .iub-popover-trigger:after {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='13' viewBox='0 0 7 13'%3E%3Cg fill='%23FFF' fill-rule='evenodd'%3E%3Cpath d='M2.779 1.288a1.287 1.287 0 112.574 0 1.287 1.287 0 01-2.574 0zM5.467 10.422l.903 1.851-.7.341a2.496 2.496 0 01-3.545-2.717l.818-3.252a.42.42 0 00-.178-.382.422.422 0 00-.452-.041l-.844.412-.902-1.852.843-.412a2.491 2.491 0 012.576.233 2.49 2.49 0 01.989 2.389 1.105 1.105 0 01-.02.095l-.817 3.253a.42.42 0 00.178.382c.08.059.244.142.451.041l.7-.341z'/%3E%3C/g%3E%3C/svg%3E");
+      background-position: center;
+      background-repeat: no-repeat
+    }
+
+    #iubenda-iframe .iub-popover {
+      position: absolute !important;
+      top: 24px !important;
+      bottom: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      border-radius: 4px !important;
+      background-color: #fff !important;
+      color: #222 !important;
+      z-index: 2 !important;
+      box-shadow: 0 0 32px rgba(0, 0, 0, .1) !important;
+      opacity: 0 !important;
+      visibility: hidden !important;
+      transform: translateY(24px) !important;
+      transition: opacity .3s ease, visibility .3s ease, transform .3s ease !important;
+      display: flex !important;
+      flex-direction: column !important;
+      z-index: 99 !important;
+      pointer-events: none !important;
+      overflow: hidden !important
+    }
+
+    #iubenda-iframe .iub-popover-header {
+      flex-shrink: 0 !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      z-index: 1 !important;
+      box-shadow: 0 16px 16px #fff !important
+    }
+
+    #iubenda-iframe .iub-popover-header>* {
+      padding: 24px !important;
+      padding-bottom: 0 !important
+    }
+
+    #iubenda-iframe .iub-popover-header-title {
+      font-size: 18px !important;
+      font-weight: 700 !important
+    }
+
+    #iubenda-iframe .iub-popover-header-close {
+      font-size: 24px !important;
+      font-weight: 300 !important;
+      cursor: pointer !important;
+      line-height: 1 !important;
+      position: relative !important;
+      top: -2px !important
+    }
+
+    #iubenda-iframe .iub-popover-content {
+      font-size: 14px !important;
+      flex: 1 !important;
+      font-weight: 300 !important;
+      line-height: 1.5 !important;
+      position: relative !important
+    }
+
+    #iubenda-iframe .iub-popover-content>div {
+      padding: 0 24px !important;
+      overflow-y: auto !important;
+      height: 100% !important
+    }
+
+    #iubenda-iframe .iub-popover-content>div:after,
+    #iubenda-iframe .iub-popover-content>div:before {
+      content: "";
+      display: block;
+      height: 24px
+    }
+
+    #iubenda-iframe .iub-popover-content>div .storage-info-field:not(:last-of-type) {
+      margin-bottom: 0 !important
+    }
+
+    #iubenda-iframe .iub-popover-content>div .storage-info-field>.storage-info-field-title {
+      font-weight: 700 !important
+    }
+
+    #iubenda-iframe .iub-popover-content h3 {
+      margin-bottom: 16px !important;
+      font-weight: 700 !important
+    }
+
+    #iubenda-iframe .iub-popover-content p:not(:last-of-type) {
+      margin-bottom: 16px !important
+    }
+
+    #iubenda-iframe .iub-popover-content a {
+      text-decoration: underline !important;
+      cursor: pointer !important;
+      opacity: .8 !important
+    }
+
+    #iubenda-iframe .iub-popover-content b,
+    #iubenda-iframe .iub-popover-content strong {
+      font-weight: 700 !important
+    }
+
+    #iubenda-iframe .iub-popover-content em,
+    #iubenda-iframe .iub-popover-content i {
+      font-style: italic !important
+    }
+
+    #iubenda-iframe .iub-popover-content:after {
+      position: absolute;
+      content: "";
+      display: block;
+      height: 24px;
+      pointer-events: none;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0, #fff 100%)
+    }
+
+    #iubenda-iframe .iub-popover {
+      top: 25% !important
+    }
+
+    #iubenda-iframe.iub-popover-visible .iub-popover {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transform: translateY(0) !important;
+      pointer-events: auto !important
+    }
+
+    #iubenda-iframe.iub-popover-visible #iubenda-iframe-popup:before {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto
+    }
+
+    @-webkit-keyframes iubenda-iframe-spinner {
+      from {
+        transform: rotate(0)
+      }
+
+      to {
+        transform: rotate(359deg)
+      }
+    }
+
+    @keyframes iubenda-iframe-spinner {
+      from {
+        transform: rotate(0)
+      }
+
+      to {
+        transform: rotate(359deg)
+      }
+    }
+
+    #iubenda-iframe .iubenda-iframe-spinner {
+      position: absolute !important;
+      top: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-spinner:after {
+      content: "" !important;
+      border: solid 2px transparent !important;
+      border-top-color: currentColor !important;
+      border-left-color: currentColor !important;
+      -webkit-animation: iubenda-iframe-spinner .8s linear infinite !important;
+      animation: iubenda-iframe-spinner .8s linear infinite !important;
+      width: 48px !important;
+      height: 48px !important;
+      border-radius: 48px !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+      color: #fff !important
+    }
+
+    #iubenda-iframe #iubenda-iframe-popup.iubenda-showing-popup .iubenda-iframe-spinner:after,
+    #iubenda-iframe #iubenda-iframe-popup.iubenda-showing-popup~.iubenda-iframe-spinner:after {
+      color: #000 !important
+    }
+
+    #iubenda-iframe .iub-legitimate-interest-checkbox {
+      padding: 16px !important;
+      border-radius: 4px !important;
+      background-color: rgba(0, 0, 0, .02) !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-top: 10px !important
+    }
+
+    #iubenda-iframe .iub-legitimate-interest-checkbox label {
+      margin-right: 8px !important;
+      flex: 1 !important;
+      font-weight: 400 !important
+    }
+
+    #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox] {
+      -moz-appearance: none !important;
+      appearance: none !important;
+      -webkit-appearance: none !important;
+      border: 0 !important;
+      margin: 0 !important;
+      width: 24px !important;
+      height: 24px !important;
+      border-radius: 4px !important;
+      box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .35) !important;
+      background-color: #fff !important;
+      flex-shrink: 0 !important;
+      cursor: pointer !important
+    }
+
+    #iubenda-iframe .iub-legitimate-interest-checkbox input[type=checkbox]:checked {
+      box-shadow: none !important;
+      background-color: #1cc691 !important;
+      background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' id='Capa_1' enable-background='new 0 0 515.556 515.556' height='512px' viewBox='0 0 515.556 515.556' width='512px' class=''%3E%3Cg%3E%3Cpath d='m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z' data-original='%23000000' class='active-path' data-old_color='%23000000' fill='%23FFFFFF'/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-size: 14px !important
+    }
+
+    #iubenda-iframe #iubenda-iframe-popup {
+      position: relative !important;
+      width: 800px !important;
+      height: 650px !important;
+      box-shadow: 0 0 16px rgba(0, 0, 0, .02) !important;
+      border-radius: 4px !important;
+      overflow: hidden !important
+    }
+
+    #iubenda-iframe #iubenda-iframe-popup:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 98;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity .3s ease, visibility .3s ease
+    }
+
+    @media (max-height:649px) {
+      #iubenda-iframe #iubenda-iframe-popup {
+        height: calc(100% - 32px) !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe #iubenda-iframe-popup {
+        width: calc(100% - 32px) !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-iframe-close-btn {
+      cursor: pointer !important;
+      width: 24px !important;
+      height: 24px !important;
+      border-radius: 24px !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      font-weight: 300 !important;
+      background-color: #fff !important;
+      position: absolute !important;
+      top: 0 !important;
+      right: 0 !important;
+      transform: translate(50%, -50%) !important;
+      transition: transform .4s ease !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21'%3E%3Cpath fill='%23000' fill-rule='nonzero' d='M18.5.379L20.621 2.5l-8 8 8 8-2.121 2.121-8-8-8 8L.379 18.5l8-8-8-8L2.5.379l8 8z'/%3E%3C/svg%3E") !important;
+      background-size: 8px 8px !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      box-shadow: 0 0 32px rgba(0, 0, 0, .3) !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-close-btn:hover {
+      transform: translate(50%, -50%) scale(1.15) !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iubenda-iframe-close-btn {
+        width: 36px !important;
+        height: 36px !important;
+        border-radius: 36px !important;
+        transform: translate(25%, -25%) !important;
+        transition: none !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-close-btn:hover {
+        transform: translate(25%, -25%) !important
+      }
+    }
+
+    #iubenda-iframe iframe {
+      width: 100% !important;
+      height: 100% !important
+    }
+
+    #iubenda-iframe #iubenda-iframe-content {
+      height: 100% !important;
+      display: flex !important;
+      flex-direction: column !important
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation {
+      position: relative !important;
+      z-index: 3 !important
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation:not(.iubenda-modal-navigation-brand) {
+      color: #555 !important;
+      box-shadow: 0 18px 10px -8px #fff !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iubenda-modal-navigation:not(.iubenda-modal-navigation-brand) {
+        box-shadow: 0 28px 12px -8px #fff !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation.iubenda-modal-navigation-brand {
+      position: relative;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .075) !important
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation.iubenda-modal-navigation-brand .iubenda-modal-navigation-logo {
+      display: flex;
+      flex-shrink: 0 !important;
+      flex: 1 !important;
+      margin-right: 16px !important
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation.iubenda-modal-navigation-brand .iubenda-modal-navigation-logo img {
+      max-width: 192px !important;
+      max-height: 56px !important;
+      min-width: auto !important;
+      min-height: auto !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iubenda-modal-navigation.iubenda-modal-navigation-brand .iubenda-modal-navigation-logo img {
+        max-width: 75% !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-modal-navigation.iubenda-modal-navigation-brand .purposes-header {
+      align-items: center !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-top-container {
+      flex: 1 !important;
+      background-color: #fff !important;
+      overflow: hidden !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer {
+      background-color: #fff !important;
+      color: #555 !important;
+      font-size: 16px !important;
+      position: relative !important;
+      z-index: 10 !important;
+      box-shadow: 0 -18px 10px -8px #fff !important;
+      border-bottom-left-radius: 4px !important;
+      border-bottom-right-radius: 4px !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer .iub-btn-back {
+      padding: 8px 16px !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer:not(.iubenda-iframe-footer-absolute):before {
+      content: "";
+      height: 48px;
+      display: block;
+      width: 100%;
+      flex: 0 0 100%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+      position: absolute;
+      bottom: 100%;
+      pointer-events: none
+    }
+
+    @media (min-width:800px) {
+      #iubenda-iframe .iubenda-iframe-footer:not(.iubenda-iframe-footer-absolute)>* {
+        margin-top: 8px !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute {
+      pointer-events: none !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute>* {
+      pointer-events: auto !important
+    }
+
+    @media (min-width:800px) {
+      #iubenda-iframe .iubenda-iframe-footer {
+        display: flex;
+        align-items: center !important;
+        justify-content: space-between !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubFooterIabBtnContainer {
+        opacity: 0 !important;
+        pointer-events: none !important;
+        transform: translateY(16px) !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iubenda-iframe-footer {
+        text-align: center !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer #iubFooterIabBtnContainer {
+        position: absolute !important;
+        bottom: 6px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin: 0 !important;
+        width: 100% !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer #iubFooterIabBtnContainer+#iubFooterBtnContainer {
+        transform: translateY(-22px) !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute {
+        display: flex;
+        flex-direction: column !important;
+        padding: 0 !important;
+        text-align: center !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubFooterBtnContainer,
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubFooterIabBtnContainer {
+        order: 1
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubBackBtn {
+        border: 0 !important;
+        order: 2;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        margin-top: -4px !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubFooterIabBtnContainer {
+        opacity: 0 !important;
+        pointer-events: none !important;
+        transform: translate(-50%, 16px) !important
+      }
+
+      #iubenda-iframe .iubenda-iframe-footer.iubenda-iframe-footer-absolute #iubFooterIabBtnContainer+#iubFooterBtnContainer {
+        transform: translateY(0) !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-iframe-footer>* {
+      transition: opacity .4s ease, transform .4s ease !important;
+      margin: 24px 20px !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iubenda-iframe-footer>* {
+        margin: 16px 12px !important
+      }
+    }
+
+    #iubenda-iframe #iubFooterBtnIab {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      display: block !important;
+      width: 100% !important;
+      font-size: 12px !important;
+      text-decoration: underline !important;
+      color: currentColor !important;
+      text-align: center !important;
+      cursor: pointer !important
+    }
+
+    #iubenda-iframe #iubFooterBtnIab:hover {
+      opacity: .6 !important
+    }
+
+    #iubenda-iframe #iubFooterBtnContainer button {
+      flex: 1 !important;
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      margin: 4px !important;
+      padding: 8px 24px !important;
+      border-radius: 64px !important;
+      cursor: pointer !important;
+      font-weight: 700 !important;
+      font-size: 100% !important;
+      background-color: #0073ce !important;
+      color: #fff !important;
+      border: 1px solid transparent !important;
+      text-align: center !important;
+      border-color: transparent !important
+    }
+
+    #iubenda-iframe #iubFooterBtnContainer button:focus,
+    #iubenda-iframe #iubFooterBtnContainer button:hover {
+      box-shadow: 0 0 0 999px inset rgba(0, 0, 0, .1) !important
+    }
+
+    @media (min-width:800px) {
+      #iubenda-iframe #iubFooterBtnContainer {
+        align-self: end !important;
+        margin-left: auto !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe #iubFooterBtnContainer {
+        display: flex !important
+      }
+
+      #iubenda-iframe #iubFooterBtnContainer button {
+        flex: 1 !important
+      }
+    }
+
+    #iubenda-iframe .purposes-header-right {
+      display: flex !important;
+      position: relative !important;
+      text-align: right !important;
+      justify-content: flex-end !important;
+      max-width: 50% !important
+    }
+
+    #iubenda-iframe .purposes-header-right>* {
+      flex-shrink: 0 !important
+    }
+
+    #iubenda-iframe .purposes-header-right .iub-iframe-brand-button {
+      order: 2 !important
+    }
+
+    #iubenda-iframe .purposes-header-right .iub-iframe-brand-button.hover {
+      width: 154px !important
+    }
+
+    #iubenda-iframe .purposes-header-right .iub-iframe-brand-button.hover svg {
+      margin-left: -30px !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .purposes-header-right .iub-iframe-brand-button.hover~.purposes-btn-cp {
+        pointer-events: none !important;
+        opacity: 0 !important
+      }
+    }
+
+    #iubenda-iframe .iub-iframe-brand-button {
+      width: 42px !important;
+      height: 38px !important;
+      margin-left: 8px !important;
+      margin-right: -24px !important;
+      color: currentColor !important;
+      display: inline-block !important;
+      background-color: rgba(0, 0, 0, .075) !important;
+      overflow: hidden !important;
+      border-top-left-radius: 32px !important;
+      border-bottom-left-radius: 32px !important;
+      cursor: pointer !important;
+      transition: transform .4s ease, width .4s ease !important
+    }
+
+    #iubenda-iframe .iub-iframe-brand-button svg {
+      transition: margin .4s ease !important;
+      height: 38px !important;
+      width: 174px !important;
+      margin-left: 4px !important
+    }
+
+    @media (max-width:799px) {
+      #iubenda-iframe .iub-iframe-brand-button {
+        margin-right: -16px !important
+      }
+    }
+
+    #iubenda-iframe #iubenda-iframe-content.cookie-policy-no-logo #purposes-container .iubenda-modal-navigation-logo {
+      display: none
+    }
+
+    #iubenda-iframe #iubenda-iframe-content.cookie-policy-no-logo .iubenda-iframe-footer #iubBackBtn {
+      display: none !important
+    }
+
+    #iubenda-iframe #iubenda-iframe-content:not(.cookie-policy-no-logo) #purposes-container .purposes-btn-back {
+      display: none
+    }
+
+    #iubenda-iframe #iubenda-iframe-content:not(.cookie-policy-no-logo) .iubenda-modal-navigation-brand .purposes-header>div {
+      flex: 1 !important
+    }
+
+    #iubenda-iframe [tabindex]:not([tabindex="-1"]):focus,
+    #iubenda-iframe a[href]:focus,
+    #iubenda-iframe button:focus,
+    #iubenda-iframe details:focus,
+    #iubenda-iframe input:focus,
+    #iubenda-iframe select:focus,
+    #iubenda-iframe textarea:focus {
+      outline-width: 2px !important;
+      outline-style: solid !important;
+      outline-color: #005fcc !important;
+      outline-offset: 2px !important
+    }
+
+    #iab-container .iab-top-container {
+      padding: 24px !important;
+      font-size: 16px !important;
+      font-family: Helvetica, Helvetica Neue, Arial, sans-serif !important;
+      background-color: #fff !important;
+      border-radius: 0 !important;
+      border-top-left-radius: 5px !important;
+      border-top-right-radius: 5px !important;
+      flex-shrink: 0 !important;
+      display: flex !important;
+      justify-content: space-between !important
+    }
+
+    #iab-container .iab-top-container button {
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      color: rgba(0, 0, 0, .65) !important;
+      display: inline-block !important;
+      padding: 8px 16px !important;
+      background-color: rgba(0, 0, 0, .07) !important;
+      border-radius: 6px !important;
+      text-decoration: none !important;
+      background-size: 21px !important;
+      background-position: center left 10px !important;
+      background-repeat: no-repeat !important;
+      cursor: pointer !important
+    }
+
+    #iab-container .iab-top-container button:before {
+      content: attr(data-str-desktop)
+    }
+
+    @media (max-width:799px) {
+      #iab-container .iab-top-container button:before {
+        content: attr(data-str-mobile)
+      }
+    }
+
+    #iab-container .iab-top-container button:hover {
+      opacity: .8 !important
+    }
+
+    #iab-container .iab-top-container button.cp-button {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23535353'%3E%3Cpath d='M3 2h5c1.773 0 5 2.634 5 5v7H3V2z'/%3E%3Cpath d='M13 7H8V2h0'/%3E%3C/g%3E%3C/svg%3E") !important;
+      padding-left: 40px !important
+    }
+
+    #iab-container .iab-top-container button.back-button {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23535353' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6.72 12.243L2.477 8h0L6.72 3.757M3 8h10.548'/%3E%3C/g%3E%3C/svg%3E") !important;
+      padding-left: 40px !important
+    }
+
+    #iab-container .iab-top-container button.stroked-button {
+      background-color: transparent !important;
+      border: 1px solid rgba(0, 0, 0, .25) !important
+    }
+
+    #iab-container .iab-top-container button.stroked-button:hover {
+      background-color: transparent !important;
+      border-color: rgba(0, 0, 0, .45) !important
+    }
+
+    #purposes-container .purposes-header {
+      padding: 24px !important;
+      position: relative !important;
+      z-index: 2 !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-container .purposes-header {
+        padding: 16px !important
+      }
+    }
+
+    #iubenda-iframe.iubenda-iframe-branded .purposes-header .iub-btn-back,
+    #iubenda-iframe.iubenda-iframe-branded .purposes-header .iub-btn-cp {
+      border-color: currentColor !important
+    }
+
+    #purposes-content-container {
+      display: flex !important;
+      flex-direction: column !important;
+      line-height: 1.5 !important
+    }
+
+    #purposes-content-container a {
+      color: rgba(0, 0, 0, .7) !important;
+      text-decoration: underline !important
+    }
+
+    #purposes-content-container a.trigger-link {
+      font-weight: 700 !important;
+      background-color: #eaeaea !important;
+      padding: 8px 16px !important;
+      color: rgba(0, 0, 0, .75) !important;
+      border-radius: 6px !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      white-space: nowrap !important
+    }
+
+    #purposes-content-container button {
+      position: relative !important
+    }
+
+    #purposes-content-container .purposes-content {
+      flex: 1 !important;
+      overflow-y: scroll !important
+    }
+
+    #purposes-content-container .purposes-header {
+      flex-shrink: 0 !important;
+      padding: 24px !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-header {
+        padding: 16px 16px 0 !important
+      }
+    }
+
+    #purposes-content-container .purposes-header .purposes-header-title {
+      font-weight: 700 !important;
+      font-size: 48px !important;
+      margin-bottom: 8px !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-header .purposes-header-title {
+        font-size: 24px !important
+      }
+    }
+
+    #purposes-content-container .purposes-header .purposes-header-text {
+      font-size: 15px !important;
+      font-weight: 300 !important
+    }
+
+    #purposes-content-container .purposes-items {
+      border-radius: 4px !important;
+      background-color: #fff !important
+    }
+
+    #purposes-content-container .purposes-items-notice {
+      color: #eb392c !important;
+      padding: 0 0 18px !important
+    }
+
+    #purposes-content-container .purposes-section {
+      padding: 24px 24px 0 !important
+    }
+
+    #purposes-content-container .purposes-section-header {
+      padding: 0 0 18px !important;
+      border-bottom: 1px solid rgba(0, 0, 0, .075) !important
+    }
+
+    #purposes-content-container .purposes-section-header-title {
+      font-weight: 700 !important;
+      font-size: 22px !important;
+      margin-bottom: 8px !important
+    }
+
+    #purposes-content-container .purposes-section-header-text {
+      font-size: 15px !important;
+      font-weight: 300 !important
+    }
+
+    #purposes-content-container .purposes-section-header b {
+      font-weight: 700 !important
+    }
+
+    #purposes-content-container .purposes-section-body {
+      padding: 0 0 18px !important
+    }
+
+    #purposes-content-container .purposes-section-body-text {
+      font-size: 15px !important;
+      font-weight: 300 !important
+    }
+
+    #purposes-content-container .purposes-section-body-title {
+      font-weight: 700 !important;
+      font-size: 20px !important;
+      margin-top: 16px !important;
+      margin-bottom: 8px !important
+    }
+
+    #purposes-content-container .purposes-section-body.no-forced-bold .purposes-item-title label {
+      font-weight: inherit !important
+    }
+
+    #purposes-content-container .purposes-section-body.no-forced-bold .purposes-item-title label b {
+      font-weight: 700 !important
+    }
+
+    #purposes-content-container .purposes-badge {
+      display: inline-block !important;
+      padding: 2px 16px !important;
+      border-radius: 32px !important;
+      font-size: 10px !important;
+      font-weight: 700 !important;
+      text-align: center !important;
+      margin: 6px 0 !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-badge {
+        margin: 6px 0 !important
+      }
+    }
+
+    #purposes-content-container .purposes-badge.purposes-badge-primary {
+      color: #25a247 !important;
+      text-align: left !important;
+      padding: 0 !important;
+      display: flex !important;
+      align-items: center !important
+    }
+
+    #purposes-content-container .purposes-badge.purposes-badge-primary:before {
+      content: "";
+      width: 24px !important;
+      height: 24px !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='16' viewBox='0 0 14 16'%3E%3Cpath fill='%2325a247' fill-rule='evenodd' d='M6.592 0L0 2.783v6.611C0 12.502 6.222 15.902 6.588 16c.366-.098 6.588-3.735 6.588-6.258V2.783L6.592 0z'/%3E%3C/svg%3E") !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      background-size: 12px 12px !important;
+      display: inline-block !important;
+      background-color: #47c51e21 !important;
+      vertical-align: middle !important;
+      border-radius: 32px !important;
+      margin-right: 6px !important;
+      border-top-left-radius: 8px !important;
+      flex-shrink: 0
+    }
+
+    #purposes-content-container .purposes-first {
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .1), inset 0 4px 0 rgba(0, 0, 0, .04), 0 4px 4px rgba(0, 0, 0, .05) !important;
+      position: sticky !important;
+      position: -webkit-sticky !important;
+      top: 0 !important;
+      background-color: #f8f8f8 !important;
+      z-index: 2 !important;
+      padding: 16px 24px !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      display: none !important
+    }
+
+    #purposes-content-container .purposes-first>:first-child {
+      text-transform: uppercase !important;
+      text-align: right !important;
+      font-weight: 700 !important;
+      font-size: 12px !important;
+      letter-spacing: 1.25px !important;
+      color: rgba(0, 0, 0, .75) !important;
+      flex: 1
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-first>:first-child {
+        font-size: 10px !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-first {
+        padding: 16px 16px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item {
+      position: relative !important;
+      display: flex !important;
+      flex-direction: column !important;
+      border-bottom: 1px solid rgba(0, 0, 0, .075) !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item {
+        margin: 0 20px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item.purposes-item-5 .purposes-item-header {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 86px !important
+    }
+
+    #purposes-content-container .purposes-item:last-child {
+      border-bottom: none !important
+    }
+
+    #purposes-content-container .purposes-item.purposes-item-shown .purposes-item-body {
+      max-height: 1000px !important;
+      padding: 0 0 24px !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item.purposes-item-shown .purposes-item-body {
+        padding: 0 0 16px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item.purposes-item-shown .purposes-item-title-btn:after {
+      transform: rotate(180deg) !important
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-header {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0, #fff 15%) !important;
+      z-index: 1 !important;
+      display: flex !important;
+      padding: 24px 0 !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item .purposes-item-header {
+        top: 65px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-title {
+      display: flex !important;
+      flex: 1 !important;
+      justify-content: space-between !important
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-title>div:first-of-type {
+      display: flex !important
+    }
+
+    @media (min-width:800px) {
+      #purposes-content-container .purposes-item .purposes-item-title>div:first-of-type {
+        align-items: center !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item .purposes-item-title>div:first-of-type {
+        flex-direction: column !important
+      }
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item .purposes-item-title {
+        flex-direction: column !important
+      }
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-title label {
+      font-weight: 700 !important;
+      font-size: 16px !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item .purposes-item-title label {
+        font-size: 14px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-title .purposes-item-title-btn {
+      -webkit-appearance: none !important;
+      -moz-appearance: none !important;
+      appearance: none !important;
+      font-size: 12px !important;
+      color: rgba(0, 0, 0, .75) !important;
+      font-weight: 300 !important;
+      display: flex !important;
+      align-items: center !important;
+      cursor: pointer !important
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-title .purposes-item-title-btn:after {
+      content: "";
+      width: 10px !important;
+      height: 10px !important;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5' viewBox='0 0 10 5'%3E%3Cpath fill='none' fill-rule='evenodd' stroke='%23979797' stroke-linecap='round' stroke-linejoin='round' d='M9.243 0L5 4.243h0L.757 0'/%3E%3C/svg%3E") !important;
+      opacity: .5 !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      display: inline-block !important;
+      margin: 8px 6px !important
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-body {
+      max-height: 0 !important;
+      overflow: hidden !important;
+      transition: max-height .4s ease, padding .4s ease !important;
+      font-size: 14px !important;
+      font-weight: 300 !important;
+      color: rgba(0, 0, 0, .75) !important
+    }
+
+    @media (max-width:799px) {
+      #purposes-content-container .purposes-item .purposes-item-body {
+        font-size: 12px !important
+      }
+    }
+
+    #purposes-content-container .purposes-item .purposes-item-body p:not(:last-of-type) {
+      margin-bottom: 8px !important
+    }
+
+    #purposes-content-container .purposes-sub-container {
+      color: #5f5f5f !important
+    }
+
+    #purposes-content-container .purposes-sub-container:not(:last-of-type) {
+      padding-bottom: 32px !important
+    }
+
+    #purposes-content-container .purposes-sub-container>div:first-of-type {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px !important
+    }
+
+    #purposes-content-container .purposes-sub-container>div:first-of-type>div:first-of-type {
+      flex: 1
+    }
+
+    #purposes-content-container .purposes-sub-container label {
+      font-weight: 700 !important
+    }
+
+    #purposes-content-container .purposes-sub-container p:not(:last-of-type) {
+      margin-bottom: 16px !important
+    }
+
+    #iubenda-iframe {
+      flex-direction: column
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge {
+      flex-shrink: 0 !important;
+      margin: 16px !important;
+      padding: 6px 34px 6px 10px !important;
+      background: #fff !important;
+      display: inline-flex;
+      border-radius: 6px !important;
+      border: 1px solid rgba(0, 0, 0, .2) !important;
+      box-shadow: 0 0 16px rgba(0, 0, 0, .1) !important;
+      align-self: flex-end;
+      background-image: url("data:image/svg+xml,%3Csvg fill='none' height='19' viewBox='0 0 9 19' width='9' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m4.1555.211426c.81725.000101 1.61499.249693 2.28656.715401.67157.465713 1.18496 1.125343 1.47153 1.890693.28657.76536.33266 1.59996.13211 2.39221-.20055.79226-.63818 1.50441-1.25438 2.04124l.87593 11.02083h-7.023493l.875933-11.02083c-.616206-.53683-1.053841-1.24898-1.254391-2.04124-.2005501-.79225-.154458-1.62685.132114-2.39221.286572-.76535.799967-1.42498 1.471537-1.890693.67157-.465708 1.46931-.7153 2.28655-.715401z' fill='%231cc691' fill-rule='evenodd'/%3E%3C/svg%3E") !important;
+      background-position: center right 12px !important;
+      background-repeat: no-repeat !important;
+      color: #222 !important;
+      font-weight: 400 !important;
+      font-size: 14px !important;
+      pointer-events: auto !important
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge:hover {
+      border: 1px solid rgba(0, 0, 0, .4) !important
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge>span {
+      border-right: 1px solid rgba(0, 0, 0, .1) !important;
+      padding-right: 12px !important
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge>span>span {
+      text-decoration: underline !important
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge-text {
+      font-size: 11px !important;
+      font-weight: 700 !important;
+      text-align: right !important;
+      margin: -4px 16px 12px !important
+    }
+
+    #iubenda-iframe .iubenda-cs-brand-badge-text a {
+      color: inherit
+    }
+
+    #iubenda-iframe .iubenda-iframe-spinner~.iubenda-iframe-badge-container .iubenda-cs-brand-badge {
+      display: none !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-badge-container {
+      display: flex;
+      justify-content: flex-end;
+      width: 100% !important;
+      max-width: 800px !important
+    }
+
+    @media (min-width:800px) {
+      #iubenda-iframe .iubenda-iframe-badge-container .iubenda-cs-brand-badge {
+        margin: 16px 0 !important
+      }
+    }
+
+    #iubenda-iframe .iubenda-iframe-badge-footer {
+      background-color: #fff !important;
+      color: #555 !important;
+      z-index: 10 !important;
+      margin-top: -5px !important;
+      box-shadow: 0 -18px 10px -8px #fff !important;
+      border-bottom-left-radius: 4px !important;
+      border-bottom-right-radius: 4px !important
+    }
+
+    #iubenda-iframe .iubenda-iframe-badge-footer a {
+      text-decoration: underline !important
+    }
+  </style>
 </head>
-
 <body>
-    <div id="root">
-        <div class="App">
-            <header class="App-header">
-                <img src="https://main.qcloudimg.com/raw/2f3b21706c37e8685efe5c60b26ceb24.png" class="App-logo" alt="logo">
-                <p>Welcome to Webify！</p>
-                <a class="App-link" href="https://webify.cloudbase.net/"
-                    target="_blank" rel="noopener noreferrer">webify.cloudbase.net</a>
-            </header>
-        </div>
-    </div>
-</body>
 
+  <div id="page" class="">
+
+
+    <main class="sheetdb-content">
+      <div id="homepage">
+        <section style="background-color: #3bb78f; background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);">
+
+          <nav x-data="{menuOpen: false}"
+            class="lg:max-w-6xl lg:mx-auto lg:flex lg:items-center lg:justify-between text-gray-100">
+            <div class="flex justify-between items-center py-4 px-6">
+              <a href="https://sheetdb.io/"
+                class="flex justify-center items-center px-2 -ml-2 py-2 text-3xl rounded-lg sheetdb-outline">
+                <svg class="block-inline w-12 h-12 mr-2" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                  style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                  <path class="fill-current" d="M70.9,15c0.4,0.1,0.7,0.2,1.1,0.2c7.4,1.1,13.5,6.8,14.9,14.1c0.2,1.3,0.4,2.5,0.4,3.8c0,1.4-0.1,2.8,0.2,4.2
+		c0.7,4.2,4.3,7.6,8.4,8.3c0,0,0.1,0,0.1,0c0.6,0.1,0.6,0.1,0.6,0.7c0,2.1,0,4.3,0,6.4c0,0.6,0,0.6-0.5,0.6c-4.2,0.7-7.6,3.7-8.6,7.9
+		c-0.2,0.9-0.2,1.7-0.3,2.6c0,1.2,0,2.5-0.1,3.7c-0.3,3.6-1.6,6.9-3.9,9.7c-2.9,3.6-6.6,5.7-11.2,6.4c-0.9,0.2-1.8,0.2-2.8,0.2
+		c-3.7,0-7.4,0-11,0c-0.1,0-0.1,0-0.2,0c-0.5,0-0.5,0-0.5-0.5c0-2.2,0-4.4,0-6.5c0-0.5,0-0.5,0.7-0.5c3.7,0,7.5,0,11.2,0
+		c2.3,0,4.4-0.7,6.3-2.1c2.4-1.8,3.7-4.3,4-7.3c0.1-1.2,0.1-2.3,0.1-3.5c0-5.6,2.3-10.2,6.6-13.8c0.1-0.1,0.1-0.1,0.2-0.2
+		c-0.1-0.2-0.3-0.4-0.5-0.5c-3.3-2.8-5.4-6.4-6.1-10.7c-0.2-0.9-0.2-1.8-0.2-2.8c0-1.1,0-2.3-0.1-3.4c-0.3-3.5-2-6.2-5-8.1
+		c-1.6-1-3.4-1.5-5.3-1.5c-3.7,0-7.3,0-11,0c-0.2,0-0.3,0-0.5,0c-0.3,0-0.4-0.1-0.4-0.4c0-0.8,0-1.6,0-2.4c0-1.6,0-3.2,0-4.8
+		C62,15,66.4,15,70.9,15z"></path>
+                  <path class="fill-current" d="M42.1,15c0,1.7,0,3.4,0,5.1c0,0.7,0,1.4,0,2.1c0,0.3-0.1,0.5-0.4,0.5c-0.3,0-0.7,0-1,0c-3.5,0-6.9,0-10.4,0
+		c-4.5-0.1-8.8,3-10,7.6c-0.2,0.9-0.4,1.7-0.4,2.6c0,1,0,2.1,0,3.1c-0.1,4.2-1.6,7.9-4.3,11.1c-0.8,0.9-1.6,1.6-2.5,2.4
+		c0,0.2,0.2,0.3,0.4,0.4c3.3,2.8,5.4,6.3,6.2,10.6c0.2,1.1,0.3,2.1,0.3,3.2c0,1.3-0.1,2.5,0.1,3.8c0.5,4.2,3.7,7.7,7.8,8.7
+		c0.8,0.2,1.7,0.3,2.5,0.3c3.6,0,7.2,0,10.8,0c0.2,0,0.4,0,0.6,0c0.3,0,0.4,0.1,0.4,0.4c0,0.1,0,0.2,0,0.3c0,2.1,0,4.2,0,6.3
+		c0,0.6,0,0.6-0.6,0.6c-3.8,0-7.6,0.1-11.5,0c-8.2-0.1-15.1-5.7-17.1-13.7c-0.3-1.2-0.5-2.4-0.5-3.6c0-1.1,0-2.1,0-3.2
+		c0-4.8-3.6-9-8.3-9.9C3,53.3,3,53.3,3,52.2c0-1.8,0-3.7,0-5.5c0-0.9,0-0.9,0.9-1.1c2.9-0.6,5.2-2.1,6.8-4.5c1.1-1.7,1.7-3.5,1.7-5.6
+		c0-1,0-2,0-3c0.2-8.6,6.5-15.6,14.4-17.1c0.6-0.1,1.2-0.2,1.9-0.3c0.1,0,0.5-0.1,0.8-0.1C33.7,15,37.7,15,42.1,15z">
+                  </path>
+                  <path class="fill-current" d="M49.8,30.7c6.7,0,13.5,0,20.2,0c0.2,0,0.4,0,0.6,0c0.3,0,0.4,0.1,0.4,0.4c0,0.6,0,1.2,0,1.7c0,1.6,0,3.2,0,4.8
+		c0,0.6,0,0.6-0.7,0.6c-2.3,0-4.5,0-6.8,0c-11.3,0-22.5,0-33.8,0c-0.1,0-0.2,0-0.3,0c-0.9,0-0.8,0.1-0.8-0.8c0-2,0-4,0-6
+		c0-0.7,0-0.7,0.7-0.7C36.1,30.7,43,30.7,49.8,30.7z"></path>
+                  <path class="fill-current" d="M49.7,68.3c-6.7,0-13.5,0-20.2,0c-1.1,0-0.9,0.1-0.9-0.9c0-2,0-4,0-6c0-0.5,0-0.5,0.5-0.5c0.1,0,0.2,0,0.3,0
+		c13.5,0,27,0,40.6,0c0.9,0,0.9-0.2,0.9,0.9c0,2,0,3.9,0,5.9c0,0.8,0,0.7-0.7,0.7C63.4,68.3,56.6,68.3,49.7,68.3z"></path>
+                  <path class="fill-current" d="M38.2,53.5c-2.9,0-5.7,0-8.6,0c-0.1,0-0.3,0-0.4,0c-0.5,0-0.5,0-0.5-0.5c0-0.9,0-1.8,0-2.7c0-1.3,0-2.5,0-3.8
+		c0-0.6,0-0.6,0.6-0.6c1.8,0,3.6,0,5.4,0c4.1,0,8.2,0,12.3,0c0.1,0,0.3,0,0.4,0c0.5,0,0.5,0,0.5,0.5c0,0.8,0,1.6,0,2.4
+		c0,1.3,0,2.6,0,4c0,0.6,0,0.7-0.6,0.7C44.1,53.5,41.2,53.5,38.2,53.5z"></path>
+                  <path class="fill-current" d="M60.4,45.9c1.3,0,2.6,0,3.9,0c0.5,0,0.5,0,0.5,0.5c0,2.2,0,4.3,0,6.5c0,0.5,0,0.5-0.5,0.5c-2.6,0-5.2,0-7.8,0
+		c-0.5,0-0.5,0-0.5-0.5c0-2.2,0-4.3,0-6.5c0-0.5,0-0.5,0.6-0.5C57.8,45.9,59.1,45.9,60.4,45.9z"></path>
+                </svg>
+                Let<strong>DB</strong>
+              </a>
+              <a href="https://sheetdb.io/#" x-on:click="menuOpen=!menuOpen" class="lg:hidden text-gray-100">
+                <svg class="fill-current w-6 h-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path x-show="!menuOpen" d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                  <path x-show="menuOpen"
+                    d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"
+                    style="display: none;"></path>
+                </svg>
+              </a>
+            </div>
+
+            <!-- <div class="lg:pr-6">
+    <div class="left-0 right-0 shadow-2xl lg:shadow-none lg:static lg:block text-white lg:text-gray-200 bg-emerald-700 lg:bg-transparent py-3 hidden" :class="menuOpen ? &#39;absolute&#39; : &#39;hidden&#39;" style="z-index: 300;">
+      <a href="https://sheetdb.io/use-cases" class="block lg:inline-block py-2 font-medium px-4 rounded-lg sheetdb-outline">Use Cases</a>
+      <a href="https://docs.sheetdb.io/" class="block lg:inline-block py-2 font-medium px-4 rounded-lg sheetdb-outline">Documentation</a>
+      <a href="https://sheetdb.io/pricing" class="block lg:inline-block py-2 font-medium px-4 rounded-lg sheetdb-outline">Pricing</a>
+      <a href="https://sheetdb.io/app" class="block lg:inline-block py-2 font-medium lg:px-4 lg:text-gray-100 lg:bg-sheetdb-green lg:rounded-lg lg:shadow-lg lg:bg-indigo-sheetdb px-6 rounded-lg sheetdb-outline">Log In Using Google Account</a>
+    </div>
+  </div> -->
+          </nav>
+
+          <div class="flex flex-col md:flex-row" style="height:430px;">
+            <div class="md:w-1/2 flex items-center justify-center md:justify-end">
+              <div class="max-w-lg md:max-w-xl px-6 md:px-0 md:pl-6 mb-8 text-center md:text-left">
+                <h1 class="font-light text-gray-100 text-2xl lg:text-4xl leading-tight mb-4">
+                  将腾讯文档<br>转换为<strong class="font-semibold">JSON API</strong>
+                </h1>
+                <p class="text-gray-200 text-lg lg:text-xl mb-4">
+                  连接腾讯文档到 CRM, API, Website, WordPress, <strong class="font-semibold underline">任何网络应用</strong>.
+                </p>
+                <a href="mailto:295300289@qq.com?subject=letdb内测申请"
+                  class="mt-2 mr-2 inline-block py-2 px-6 text-emerald-700 bg-gray-100 rounded-lg shadow-lg font-medium sheetdb-outline focus:ring-blue-300">内测申请</a>
+              </div>
+            </div>
+            <div class="md:w-1/2 relative">
+
+              <img class="hidden md:block absolute right-0"
+                src="./static/sheetdb.svg"
+                loading="lazy" alt="RESTful API for Google Spreadsheet to your CRM" style="height: 36rem;">
+
+              <div class="mx-6 relative">
+                <div class="md:hidden w-full absolute right-0 top-0 flex rounded-lg bg-white overflow-hidden shadow">
+                  <div class="h-4 bg-gray-200 absolute top-0 left-0 right-0 rounded-t-lg flex items-center">
+                    <span class="h-2 w-2 rounded-full bg-red-500 inline-block mr-1 ml-2"></span>
+                    <span class="h-2 w-2 rounded-full bg-orange-400 inline-block mr-1"></span>
+                    <span class="h-2 w-2 rounded-full bg-emerald-500 inline-block mr-1"></span>
+                  </div>
+                  <div class="flex-1 px-4 py-8">
+                    <div class="text-lg text-gray-700 font-bold mb-6 flex items-end">
+                      <svg class="mr-2" version="1.1" x="0px" y="0px" width="33px" height="46px" viewBox="0 0 33 46">
+                        <g>
+                          <path fill="#23A566"
+                            d="M32.6,42.8c0,1.5-1.2,2.6-2.6,2.6H2.6c-1.5,0-2.6-1.2-2.6-2.6V2.6C0,1.1,1.2,0,2.6,0h17.6l12.4,12.7V42.8z">
+                          </path>
+                          <path fill="#1C8F5A" d="M21.5,12.4l11,10.6V12.8C32.5,12.7,21.5,12.4,21.5,12.4z"></path>
+                          <path fill="#8ED1B1" d="M32.6,12.7h-9.8c-1.5,0-2.6-1.2-2.6-2.6V0L32.6,12.7z"></path>
+                          <path fill="#FFFFFF" d="M8.8,27H24v1.6H8.8V27z M8.8,31.1H24v1.6H8.8V31.1z"></path>
+                          <path fill="#FFFFFF" d="M24.7,37h-17V22.3h17V37z M9.8,24.4v10.5h12.8V24.4H9.8z"></path>
+                          <path fill="#FFFFFF" d="M15.2,23.5h2.1V36h-2.1V23.5z"></path>
+                        </g>
+                      </svg>
+                      <div>
+                        <div class="h-3 w-64 bg-gray-200 mb-1 rounded-full"></div>
+                        <div class="h-3 w-32 bg-gray-100 rounded-full"></div>
+                      </div>
+                    </div>
+
+                    <div class="flex  mb-5 ">
+                      <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <div class="flex  mb-5 ">
+                      <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <div class="flex  mb-5 ">
+                      <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <div class="flex  mb-5 ">
+                      <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <div class="flex ">
+                      <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                      <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                        <div class="p-1 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div
+                  class="mr-3 md:hidden absolute right-0 bottom-0 w-48 bg-white rounded-lg shadow-lg p-6 bg-gray-900 text-xs text-gray-200"
+                  style="z-index: 2; margin-bottom: -380px;">
+                  <pre>[
+  {
+    <span class="text-orange-500">"id"</span>: <span class="text-emerald-400">"1"</span>,
+    <span class="text-orange-500">"name"</span>: <span class="text-emerald-400">"Tom"</span>,
+    <span class="text-orange-500">"age"</span>: <span class="text-emerald-400">"15"</span>,
+    <span class="text-orange-500">"comment"</span>: <span class="text-emerald-400">""</span>
+  },
+  {
+    <span class="text-orange-500">"id"</span>: <span class="text-emerald-400">"2"</span>,
+    <span class="text-orange-500">"name"</span>: <span class="text-emerald-400">"Alex"</span>,
+    <span class="text-orange-500">"age"</span>: <span class="text-emerald-400">"24"</span>,
+    <span class="text-orange-500">"comment"</span>: <span class="text-emerald-400">""</span>
+  }
+]</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <svg version="1.1" class="fill-current text-white overflow-hidden -mb-1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 320"
+            style="enable-background:new 0 0 1440 320;" xml:space="preserve">
+            <path
+              d="M0,96.3c0,0,254.3,109,684.1,63.7c141.9-14.9,270.8-33.5,380.3-51.9c230.8-38.6,375.6-8.8,375.6-8.8V320H0V96.3z">
+            </path>
+          </svg>
+
+          <div class="md:hidden w-full block bg-white" style="height:230px;"></div>
+          <div class="w-full block bg-white" style="height:1px;"></div>
+
+        </section>
+        <div class="bg-blue-gray-100">
+          <div class="px-6 py-20 md:py-4">
+            <div class="md:max-w-6xl md:mx-auto">
+              <div class="md:flex md:flex-wrap">
+                <div class="md:w-2/5 relative">
+                  <div class="hidden md:block">
+
+                    <div class="mr-2 -mb-24 absolute right-0 bottom-0 w-48 bg-gray-900 rounded-lg shadow-lg p-6"
+                      style="z-index: 2; transform: rotate(-4deg);">
+
+                      <div class="text-gray-200 text-left text-xs">
+                        <pre>[
+{
+<span class="text-orange-400">"id"</span>: <span class="text-emerald-400">"1"</span>,
+<span class="text-orange-400">"name"</span>: <span class="text-emerald-400">"Tom"</span>,
+<span class="text-orange-400">"age"</span>: <span class="text-emerald-400">"15"</span>,
+<span class="text-orange-400">"comment"</span>: <span class="text-emerald-400">""</span>
+},
+{
+<span class="text-orange-400">"id"</span>: <span class="text-emerald-400">"2"</span>,
+<span class="text-orange-400">"name"</span>: <span class="text-emerald-400">"Alex"</span>,
+<span class="text-orange-400">"age"</span>: <span class="text-emerald-400">"24"</span>,
+<span class="text-orange-400">"comment"</span>: <span class="text-emerald-400">""</span>
+}
+]</pre>
+                      </div>
+                    </div>
+
+                    <div
+                      class="mt-10 w-full absolute mr-12 right-0 top-0 flex rounded-lg bg-white overflow-hidden shadow-lg"
+                      style="z-index: 1; transform: rotate(-4deg);">
+                      <div class="flex-1 p-6">
+                        <div class="text-lg text-gray-700 font-bold mb-6 flex items-end">
+                          <svg class="mr-2" version="1.1" x="0px" y="0px" width="33px" height="46px"
+                            viewBox="0 0 33 46">
+                            <g>
+                              <path fill="#23A566"
+                                d="M32.6,42.8c0,1.5-1.2,2.6-2.6,2.6H2.6c-1.5,0-2.6-1.2-2.6-2.6V2.6C0,1.1,1.2,0,2.6,0h17.6l12.4,12.7V42.8z">
+                              </path>
+                              <path fill="#1C8F5A" d="M21.5,12.4l11,10.6V12.8C32.5,12.7,21.5,12.4,21.5,12.4z"></path>
+                              <path fill="#8ED1B1" d="M32.6,12.7h-9.8c-1.5,0-2.6-1.2-2.6-2.6V0L32.6,12.7z"></path>
+                              <path fill="#FFFFFF" d="M8.8,27H24v1.6H8.8V27z M8.8,31.1H24v1.6H8.8V31.1z"></path>
+                              <path fill="#FFFFFF" d="M24.7,37h-17V22.3h17V37z M9.8,24.4v10.5h12.8V24.4H9.8z"></path>
+                              <path fill="#FFFFFF" d="M15.2,23.5h2.1V36h-2.1V23.5z"></path>
+                            </g>
+                          </svg>
+                          <div>
+                            <div class="h-3 w-64 bg-gray-200 mb-1 rounded-full"></div>
+                            <div class="h-3 w-32 bg-gray-100 rounded-full"></div>
+                          </div>
+                        </div>
+
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+                        <div class="flex mb-5">
+                          <div class="w-16 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-48 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-32 rounded-full bg-gray-100 py-2 px-4 mr-2">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                          <div class="w-24 rounded-full bg-gray-100 py-2 px-4">
+                            <div class="p-1 rounded-full bg-gray-300"></div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="md:w-3/5 text-center md:text-left md:pt-16 md:pl-24">
+                  <h2 class="font-light text-gray-900 text-2xl md:text-4xl leading-tight mb-4">
+                    腾讯文档表格JSON API
+                  </h2>
+
+                  <p class="text-gray-700 md:text-lg mb-4">
+                    使用以下方法操作腾讯文档表格/智能表 <span class="bg-gray-300 shadow-lg px-2 rounded-full">GET</span>, <span
+                      class="bg-gray-300 shadow-lg px-2 rounded-full">POST</span>, <span
+                      class="bg-gray-300 shadow-lg px-2 rounded-full">PUT</span> <span
+                      class="bg-gray-300 shadow-lg px-2 rounded-full">DELETE</span>
+                  </p>
+
+                  <a href="https://docs.sheetdb.io/"
+                    class="mt-6 mb-12 md:mb-0 md:mt-10 mr-2 inline-block py-2 px-6 text-white bg-emerald-600 rounded-lg shadow-lg font-medium sheetdb-outline">文档筹备中...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <svg version="1.1" class="fill-current text-blue-gray-200" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 320"
+            style="enable-background:new 0 0 1440 320;" xml:space="preserve">
+            <path
+              d="M0,96.3c0,0,254.3,109,684.1,63.7c141.9-14.9,270.8-33.5,380.3-51.9c230.8-38.6,375.6-8.8,375.6-8.8V320H0V96.3z">
+            </path>
+          </svg>
+        </div>
+        <div class="bg-blue-gray-200">
+
+          <div class="px-6 flex justify-center mb-12">
+
+            <div class="text-center max-w-6xl">
+              <h2 class="font-light text-gray-700 text-2xl md:text-4xl leading-tight mb-8">
+                <strong>代码样例</strong>
+              </h2>
+            </div>
+
+          </div>
+
+          <div class="flex justify-center items-center flex-col">
+            <div class="w-full max-w-6xl px-2">
+              <div wire:id="4akJAab0Q0uZF5w4yka1"
+                wire:initial-data="{&quot;fingerprint&quot;:{&quot;id&quot;:&quot;4akJAab0Q0uZF5w4yka1&quot;,&quot;name&quot;:&quot;page.code-examples&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;path&quot;:&quot;\/&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;v&quot;:&quot;acj&quot;},&quot;effects&quot;:{&quot;listeners&quot;:[]},&quot;serverMemo&quot;:{&quot;children&quot;:[],&quot;errors&quot;:[],&quot;htmlHash&quot;:&quot;29189f04&quot;,&quot;data&quot;:{&quot;examples&quot;:[{&quot;name&quot;:&quot;HTML&quot;,&quot;slug&quot;:&quot;html&quot;,&quot;language&quot;:&quot;html&quot;},{&quot;name&quot;:&quot;JavaScript&quot;,&quot;slug&quot;:&quot;javascript&quot;,&quot;language&quot;:&quot;javascript&quot;},{&quot;name&quot;:&quot;jQuery&quot;,&quot;slug&quot;:&quot;jquery&quot;,&quot;language&quot;:&quot;javascript&quot;},{&quot;name&quot;:&quot;axios.js&quot;,&quot;slug&quot;:&quot;axios&quot;,&quot;language&quot;:&quot;javascript&quot;},{&quot;name&quot;:&quot;PHP Library&quot;,&quot;slug&quot;:&quot;php_library&quot;,&quot;language&quot;:&quot;php&quot;},{&quot;name&quot;:&quot;PHP&quot;,&quot;slug&quot;:&quot;php&quot;,&quot;language&quot;:&quot;php&quot;},{&quot;name&quot;:&quot;Ruby&quot;,&quot;slug&quot;:&quot;ruby&quot;,&quot;language&quot;:&quot;ruby&quot;},{&quot;name&quot;:&quot;Python&quot;,&quot;slug&quot;:&quot;python&quot;,&quot;language&quot;:&quot;python&quot;},{&quot;name&quot;:&quot;Swift&quot;,&quot;slug&quot;:&quot;swift&quot;,&quot;language&quot;:&quot;swift&quot;},{&quot;name&quot;:&quot;Node.js&quot;,&quot;slug&quot;:&quot;node&quot;,&quot;language&quot;:&quot;javascript&quot;}]},&quot;dataMeta&quot;:{&quot;collections&quot;:[&quot;examples&quot;]},&quot;checksum&quot;:&quot;c81c60b2bf35ed9bc1c76755644c4c0d0f9dda398511b25f89dd72093d37abc9&quot;}}">
+                <div x-data="{
+        selectedId: null,
+        init() {
+            this.$nextTick(() =&gt; this.select(this.$id(&#39;tab&#39;, 1)))
+        },
+        select(id) {
+            this.selectedId = id
+        },
+        isSelected(id) {
+            return this.selectedId === id
+        },
+        whichChild(el, parent) {
+            return Array.from(parent.children).indexOf(el) + 1
+        }
+    }" x-id="[&#39;tab&#39;]" class="mx-auto">
+                  <!-- Tab List -->
+                  <ul x-ref="tablist" @keydown.right.prevent.stop="$focus.wrap().next()"
+                    @keydown.home.prevent.stop="$focus.first()" @keydown.page-up.prevent.stop="$focus.first()"
+                    @keydown.left.prevent.stop="$focus.wrap().prev()" @keydown.end.prevent.stop="$focus.last()"
+                    @keydown.page-down.prevent.stop="$focus.last()" role="tablist"
+                    class="-mb-px flex items-stretch flex-wrap">
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md border-gray-200 text-gray-200 bg-prism-brown"
+                        role="tab" id="tab-1-1" tabindex="0" aria-selected="true">HTML</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-2" tabindex="-1" aria-selected="false">JavaScript</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-3" tabindex="-1" aria-selected="false">jQuery</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-4" tabindex="-1" aria-selected="false">axios.js</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-5" tabindex="-1" aria-selected="false">PHP Library</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-6" tabindex="-1" aria-selected="false">PHP</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-7" tabindex="-1" aria-selected="false">Ruby</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-8" tabindex="-1" aria-selected="false">Python</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-9" tabindex="-1" aria-selected="false">Swift</button>
+                    </li>
+                    <li>
+                      <button :id="$id(&#39;tab&#39;, whichChild($el.parentElement, $refs.tablist))"
+                        @click="select($el.id)" @mousedown.prevent="" @focus="select($el.id)" type="button"
+                        :tabindex="isSelected($el.id) ? 0 : -1" :aria-selected="isSelected($el.id)"
+                        :class="isSelected($el.id) ? &#39;border-gray-200 text-gray-200 bg-prism-brown&#39; : &#39;text-prism-brown border-transparent&#39;"
+                        class="inline-flex text-sm px-5 py-2.5 border-t border-l border-r rounded-md mb-1 lg:mb-0 lg:rounded-none lg:rounded-t-md text-prism-brown border-transparent"
+                        role="tab" id="tab-1-10" tabindex="-1" aria-selected="false">Node.js</button>
+                    </li>
+                  </ul>
+
+                  <!-- Panels -->
+                  <div class="rounded-b-md border border-gray-200 shadow-lg bg-prism-brown">
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-1" style="">
+                      <pre class="language-html" tabindex="0"><code class="language-html"><span class="token comment">&lt;!-- More details here: https://docs.sheetdb.io/handlebars --&gt;</span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>thead</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>ID<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Name<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Age<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>Comment<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>thead</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tbody</span> <span class="token attr-name">data-sheetdb-url</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://chongyacode.com/api/v1/58f61be4dda40<span class="token punctuation">"</span></span>
+        <span class="token attr-name">data-sheetdb-sort-by</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>age<span class="token punctuation">"</span></span>
+        <span class="token attr-name">data-sheetdb-sort-order</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>desc<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>{{id}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>{{name}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>{{age}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span>{{comment}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tbody</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://chongyacode.com/handlebars.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-2" style="display: none;">
+                      <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=&gt;</span> response<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-3" style="display: none;">
+                      <pre class="language-javascript" tabindex="0"><code class="language-javascript">$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token literal-property property">url</span><span class="token operator">:</span> <span class="token string">"https://sheetdb.io/api/v1/58f61be4dda40"</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">success</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-4" style="display: none;">
+                      <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token comment">// Get all data</span>
+axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Get 10 results starting from 20</span>
+axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40?limit=10&amp;offset=20'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Get all data sorted by name in ascending order</span>
+axios<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40?sort_by=name&amp;sort_order=asc'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">response</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-5" style="display: none;">
+                      <pre class="language-php" tabindex="0"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<span class="token comment">// Install SheetDB package: composer require sheetdb/sheetdb-php</span>
+
+<span class="token comment">// More details here: https://github.com/sheetdb/sheetdb-php</span>
+
+<span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'vendor/autoload.php'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token package">SheetDB<span class="token punctuation">\</span>SheetDB</span><span class="token punctuation">;</span>
+
+<span class="token variable">$sheetdb</span> <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SheetDB</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'58f61be4dda40'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token variable">$content</span> <span class="token operator">=</span> <span class="token variable">$sheetdb</span><span class="token operator">-&gt;</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// returns all spreadsheets data</span>
+<span class="token variable">$keys</span> <span class="token operator">=</span> <span class="token variable">$sheetdb</span><span class="token operator">-&gt;</span><span class="token function">keys</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// returns all spreadsheets key names</span>
+<span class="token variable">$name</span> <span class="token operator">=</span> <span class="token variable">$sheetdb</span><span class="token operator">-&gt;</span><span class="token function">name</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// returns name of a spreadsheet document</span>
+</span></code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-6" style="display: none;">
+                      <pre class="language-php" tabindex="0"><code class="language-php"><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
+<span class="token variable">$options</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token string single-quoted-string">'http'</span> <span class="token operator">=&gt;</span> <span class="token punctuation">[</span>
+        <span class="token string single-quoted-string">'method'</span>  <span class="token operator">=&gt;</span> <span class="token string single-quoted-string">'GET'</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token variable">$response</span> <span class="token operator">=</span> <span class="token function">json_decode</span><span class="token punctuation">(</span>
+    <span class="token function">file_get_contents</span><span class="token punctuation">(</span><span class="token string single-quoted-string">'https://sheetdb.io/api/v1/58f61be4dda40'</span><span class="token punctuation">,</span> <span class="token constant boolean">false</span><span class="token punctuation">,</span> <span class="token function">stream_context_create</span><span class="token punctuation">(</span><span class="token variable">$options</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-7" style="display: none;">
+                      <pre class="language-ruby" tabindex="0"><code class="language-ruby"><span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'net/http'</span></span>
+<span class="token keyword">require</span> <span class="token string-literal"><span class="token string">'json'</span></span>
+
+response <span class="token operator">=</span> <span class="token constant">JSON</span><span class="token punctuation">.</span>parse<span class="token punctuation">(</span>
+    Net<span class="token double-colon punctuation">::</span><span class="token constant">HTTP</span><span class="token punctuation">.</span>get<span class="token punctuation">(</span>
+        <span class="token constant">URI</span><span class="token punctuation">(</span><span class="token string-literal"><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40'</span></span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-8" style="display: none;">
+                      <pre class="language-python" tabindex="0"><code class="language-python"><span class="token keyword">import</span> requests
+<span class="token keyword">import</span> json
+
+response <span class="token operator">=</span> json<span class="token punctuation">.</span>loads<span class="token punctuation">(</span>
+    requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'https://sheetdb.io/api/v1/58f61be4dda40'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>content
+<span class="token punctuation">)</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-9" style="display: none;">
+                      <pre class="language-swift" tabindex="0"><code class="language-swift"><span class="token keyword">import</span> <span class="token class-name">Foundation</span>
+
+<span class="token comment">// Read whole spreadsheet</span>
+<span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token class-name">String</span><span class="token punctuation">(</span>format<span class="token punctuation">:</span> <span class="token string-literal"><span class="token string">"https://sheetdb.io/api/v1/58f61be4dda40"</span></span><span class="token punctuation">)</span>
+<span class="token keyword">let</span> serviceUrl <span class="token operator">=</span> <span class="token function">URL</span><span class="token punctuation">(</span>string<span class="token punctuation">:</span> url<span class="token punctuation">)</span>
+<span class="token keyword">var</span> request <span class="token operator">=</span> <span class="token class-name">URLRequest</span><span class="token punctuation">(</span>url<span class="token punctuation">:</span> serviceUrl<span class="token operator">!</span><span class="token punctuation">)</span>
+
+request<span class="token punctuation">.</span>httpMethod <span class="token operator">=</span> <span class="token string-literal"><span class="token string">"GET"</span></span>
+request<span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span><span class="token string-literal"><span class="token string">"Application/json"</span></span><span class="token punctuation">,</span> forHTTPHeaderField<span class="token punctuation">:</span> <span class="token string-literal"><span class="token string">"Content-Type"</span></span><span class="token punctuation">)</span>
+
+<span class="token keyword">let</span> session <span class="token operator">=</span> <span class="token class-name">URLSession</span><span class="token punctuation">.</span>shared
+
+session<span class="token punctuation">.</span><span class="token function">dataTask</span><span class="token punctuation">(</span>with<span class="token punctuation">:</span> request<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">(</span>data<span class="token punctuation">,</span> response<span class="token punctuation">,</span> error<span class="token punctuation">)</span> <span class="token keyword">in</span>
+  <span class="token keyword">if</span> <span class="token keyword">let</span> data <span class="token operator">=</span> data <span class="token punctuation">{</span>
+    <span class="token keyword">do</span> <span class="token punctuation">{</span>
+      <span class="token keyword">let</span> json <span class="token operator">=</span> <span class="token keyword">try</span> <span class="token class-name">JSONSerialization</span><span class="token punctuation">.</span><span class="token function">jsonObject</span><span class="token punctuation">(</span>with<span class="token punctuation">:</span> data<span class="token punctuation">,</span> options<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+      <span class="token function">print</span><span class="token punctuation">(</span>json<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">{</span>
+      <span class="token function">print</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">.</span><span class="token function">resume</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+                    </section>
+                    <!-- Panel -->
+                    <section x-show="isSelected($id(&#39;tab&#39;, whichChild($el, $el.parentElement)))"
+                      :aria-labelledby="$id(&#39;tab&#39;, whichChild($el, $el.parentElement))" role="tabpanel"
+                      class="p-2" aria-labelledby="tab-1-10" style="display: none;">
+                      <pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token keyword">const</span> sheetdb <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"sheetdb-node"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> client <span class="token operator">=</span> <span class="token function">sheetdb</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">address</span><span class="token operator">:</span> <span class="token string">'58f61be4dda40'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Read whole spreadsheet</span>
+client<span class="token punctuation">.</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Read first two rows from sheet "Sheet2"</span>
+client<span class="token punctuation">.</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">limit</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token literal-property property">sheet</span><span class="token operator">:</span> <span class="token string">"Sheet2"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+                    </section>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Livewire Component wire-end:4akJAab0Q0uZF5w4yka1 -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <div class="overflow-hidden bg-indigo-50">
+      <svg version="1.1" class="fill-current text-blue-gray-900 -ml-1 -mr-1 -mb-1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 320"
+        style="enable-background:new 0 0 1440 320;" xml:space="preserve">
+        <path
+          d="M0,96.3c0,0,254.3,109,684.1,63.7c141.9-14.9,270.8-33.5,380.3-51.9c230.8-38.6,375.6-8.8,375.6-8.8V320H0V96.3z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="bg-blue-gray-900 text-gray-500 pb-12">
+      <footer class="md:max-w-6xl md:mx-auto md:flex md:items-top md:justify-left py-4 px-6 text-center md:text-left ">
+        <div class="md:w-1/4 md:pr-8">
+        </div>
+        <div class="md:w-1/4 md:pr-8">
+        
+        </div>
+        <div
+          class="flex text-center w-full justify-center md:text-right md:w-2/4 md:flex md:justify-end text-gray-500 mt-10 md:mt-0">
+          <div>
+            © LetDB 2023<br>深圳市望天盛贸易有限公司
+          </div>
+          <div>粤ICP备2022120786号</div>
+        </div>
+      </footer>
+    </div>
+
+
+  </div>
+
+
+  <link rel="modulepreload"
+    href="./static/page.94f0ee4a.js">
+  <link rel="modulepreload" href="https://sheetdb.io/build/assets/module.esm.c8132518.js">
+  <script type="module"
+    src="./static/page.94f0ee4a.js"></script>
+  <script src="./static/prism.js"></script>
+  <script type="text/javascript" class="_iub_cs_activate _iub_cs_activate-activated" async="false">
+    window.intercomSettings = {
+      api_base: "https://api-iam.intercom.io",
+      app_id: "gwiet1hc",
+    };
+  </script>
+
+  <script type="text/javascript" class="_iub_cs_activate _iub_cs_activate-activated" async="false">
+    (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/gwiet1hc'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (document.readyState === 'complete') { l(); } else if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+  </script>
+
+
+
+  <script defer=""
+    src="./static/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+    integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+    data-cf-beacon="{&quot;rayId&quot;:&quot;814546c15b4b211d&quot;,&quot;version&quot;:&quot;2023.8.0&quot;,&quot;b&quot;:1,&quot;token&quot;:&quot;9c77520db02f4b809af1096fbe9ab5af&quot;,&quot;si&quot;:100}"
+    crossorigin="anonymous"></script>
+
+
+  <iframe name="__uspapiLocator" style="display: none;"
+    src="./static/saved_resource.html"></iframe><iframe
+    id="intercom-frame"
+    style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;"
+    aria-hidden="true" tabindex="-1" title="Intercom"
+    src="./static/saved_resource(1).html"></iframe>
+  <div id="intercom-container" class="intercom-namespace">
+    <style>
+      html.intercom-mobile-messenger-active,
+      html.intercom-mobile-messenger-active>body,
+      html.intercom-modal-open,
+      #intercom-container-body {
+        overflow: hidden !important;
+      }
+
+      html.intercom-mobile-messenger-active,
+      html.intercom-mobile-messenger-active>body {
+        position: static !important;
+        transform: none !important;
+      }
+
+      html.intercom-mobile-messenger-active>body {
+        height: 0 !important;
+        margin: 0 !important;
+      }
+
+      html.intercom-mobile-messenger-active.intercom-mobile-messenger-ios-15>body {
+        height: 100vh !important;
+      }
+
+      iframe#intercom-frame {
+        position: absolute !important;
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        top: 0 !important;
+        left: 0 !important;
+        border: none !important;
+        display: block !important;
+        z-index: -1 !important;
+      }
+    </style>
+  </div>
+  <div id="intercom-css-container">
+    <style data-emotion="intercom-global"></style>
+    <style data-emotion="intercom"></style>
+  </div>
+</body>
 </html>
